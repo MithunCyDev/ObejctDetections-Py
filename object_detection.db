@@ -1,0 +1,5 @@
+CREATE TABLE detections (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    object_name TEXT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
